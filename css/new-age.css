@@ -16,7 +16,7 @@ body {
 }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 a {
@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -70,14 +70,14 @@ section h2 {
   background-color: white;
   -webkit-transition: all .35s;
   transition: all .35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand {
   color: #fdcc52;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -169,7 +169,7 @@ section.masthead {
 }
 
 section.masthead .header-content {
-  max-width: 500px;
+  max-width: 600px;
   margin-bottom: 100px;
   text-align: center;
 }
@@ -372,7 +372,8 @@ section.team .overlay {
 section.team .compact-title {
   padding-top: 15px;
   margin: 2px 0px;
-  font-size: 18px;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -398,6 +399,7 @@ section.contact {
 section.contact h2 {
   margin-top: 0;
   margin-bottom: 25px;
+  font-size: 26pt;
 }
 
 section.contact h2 i {
@@ -512,4 +514,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.h1, h1 {
+  font-size: 1.8rem;
 }
