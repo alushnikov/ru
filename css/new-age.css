@@ -190,7 +190,7 @@ section.masthead .device-container .screen img {
 
 @media (min-width: 992px) {
   section.masthead {
-    height: 50vh;
+    height: 55vh;
   }
   section.masthead .header-content {
     margin-bottom: 0;
